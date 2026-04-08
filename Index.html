@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bhargav Penumaka | Terminal Portfolio</title>
+    <style>
+    </style>
+</head>
+
+<body>
+
+    <canvas id="stars"></canvas>
+
+    <nav>
+        <a href="#hero">Terminal</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#internships">Internships</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+        <div class="terminal-window">
+            <div class="terminal-titlebar">
+                <div class="dot dot-red"></div>
+                <div class="dot dot-yellow"></div>
+                <div class="dot dot-green"></div>
+                <div class="terminal-title">bhargav@kali: ~</div>
+            </div>
+            <div class="terminal-banner">
+                <span class="ascii-name">BHARGAV PENUMAKA</span>
+                <p class="banner-sub">Welcome to Bhargav's Terminal Portfolio v1.0</p>
+                <p class="banner-hint">Type 'help' to see available commands: ls, whoami, cat [filename], clear</p>
+            </div>
+            <div class="terminal-body" id="terminal-body" onclick="document.getElementById('terminal-input').focus()">
+                <div id="terminal-output"></div>
+                <div class="prompt-line">
+                    <span class="prompt-user">bhargav@kali:~$</span>
+                    <input type="text" id="terminal-input" autocomplete="off" spellcheck="false" placeholder="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="section-header">
+            <h2>About Me</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="inner">
+            <div class="about-text">
+                Hey! I am <strong style="color:var(--cyan)">Bhargav Penumaka</strong> — a Software Engineer specializing
+                in <strong style="color:var(--green)">Mobile Automation Testing</strong>. Currently working at <strong
+                    style="color:var(--cyan)">Cavisson</strong> on Android and iOS automation projects, focusing on
+                building scalable frameworks, improving test stability, and reducing manual regression effort.
+                Proficient in Appium, Maven, TestNG, Cucumber (BDD), and Allure. Strong advocate of automation best
+                practices and Agile workflows.
+                <div class="about-contacts">
+                    <a href="mailto:bhargavpenumakabhargavpenumaka@gmail.com">📧 bhargavpenumaka@gmail.com</a>
+                    <a href="tel:+919949435979">📞 +91-9949435979</a>
+                    <a href="https://linkedin.com" target="_blank">💼 LinkedIn</a>
+                    <a href="https://github.com" target="_blank">🐙 GitHub</a>
+                </div>
+            </div>
+            <div class="about-photo">👤</div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+        <div class="section-header">
+            <h2>Experience</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="card">
+            <div class="intern-date">Software Engineer – Mobile Automation</div>
+            <div class="intern-role">Cavisson &nbsp;|&nbsp; Current</div>
+            <ul>
+                <li>Automating Android and iOS mobile applications using Appium with Java.</li>
+                <li>Designing and maintaining automation frameworks using Maven for structured build management.</li>
+                <li>Executing and managing test suites with TestNG for reliable test orchestration.</li>
+                <li>Writing BDD test scenarios using Cucumber and Gherkin for readable, stakeholder-friendly test cases.
+                </li>
+                <li>Integrating Allure Reports for detailed execution insights and visual reporting.</li>
+                <li>Automating end-to-end user journeys including login, navigation, and data validations.</li>
+                <li>Collaborating with developers and QA teams in Agile sprints for continuous delivery.</li>
+            </ul>
+            <div style="margin-top:16px; display:flex; flex-wrap:wrap; gap:6px;">
+                <span class="tag">Appium</span><span class="tag">Java</span><span class="tag">TestNG</span>
+                <span class="tag">Cucumber BDD</span><span class="tag">Maven</span><span class="tag">Allure</span>
+                <span class="tag">Android</span><span class="tag">iOS</span><span class="tag">Agile</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <div class="section-header">
+            <h2>Projects</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="grid-2">
+            <div class="project-card">
+                <h3>Mobile Application Automation – Cosmo &amp; Sally</h3>
+                <ul>
+                    <li>Automated Cosmo and Sally mobile applications for both Android and iOS platforms using Appium
+                        with Java.</li>
+                    <li>Designed and executed a large number of automated test cases covering login, product browsing,
+                        cart management, and checkout flows.</li>
+                    <li>Implemented test automation using TestNG, Cucumber, and Maven to support structured test
+                        execution and reporting.</li>
+                    <li>Integrated Allure reporting to generate detailed automation reports for test execution results.
+                    </li>
+                    <li>Improved regression testing efficiency by automating repetitive manual test cases.</li>
+                </ul>
+                <div style="margin-top:14px; display:flex; flex-wrap:wrap; gap:6px;">
+                    <span class="tag">Appium</span><span class="tag">Java</span><span class="tag">TestNG</span>
+                    <span class="tag">Cucumber</span><span class="tag">Maven</span><span class="tag">Allure</span>
+                    <span class="tag">Android</span><span class="tag">iOS</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>EzyCharge – Backend API Development</h3>
+                <ul>
+                    <li>Developed RESTful APIs using Node.js and Express.js to power the EzyCharge backend platform.
+                    </li>
+                    <li>Worked on complaint management module, file upload handling, and backend performance
+                        optimization.</li>
+                    <li>Collaborated with the frontend team to define and integrate clean API contracts.</li>
+                </ul>
+                <div style="margin-top:14px; display:flex; flex-wrap:wrap; gap:6px;">
+                    <span class="tag">Node.js</span><span class="tag">Express.js</span><span class="tag">REST API</span>
+                    <span class="tag">JavaScript</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <div class="section-header">
+            <h2>Skills</h2>
+            <div class="underline"></div>
+        </div>
+
+        <div class="skills-group">
+            <h3>Automation Tools</h3>
+            <div class="skill-icons">
+
+                <div class="skill-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/appium/appium-original.svg">
+                    <span>Appium</span>
+                </div>
+
+                <div class="skill-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg">
+                    <span>Selenium</span>
+                </div>
+
+                <div class="skill-item">
+                    <img src="https://playwright.dev/img/playwright-logo.svg">
+                    <span>Playwright</span>
+                </div>
+
+                <div class="skill-item">
+                    <img src="https://avatars.githubusercontent.com/u/19369327?s=200&v=4">
+                    <span>REST Assured</span>
+                </div>
+
+                <div class="skill-item">
+                    <img src="https://raw.githubusercontent.com/appium/appium-inspector/main/assets/icon.png">
+                    <span>Appium Inspector</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="skills-group">
+            <h3>Programming Languages</h3>
+            <div class="skill-icons">
+
+                <div class="skill-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
+                    <span>Java</span>
+                </div>
+
+                <div class="skill-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="skill-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
+                    <span>Python</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="skills-group">
+            <div class="skills-group">
+                <h3>API & Testing</h3>
+                <div class="skill-icons">
+
+                    <div class="skill-item">
+                        <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg">
+                        <span>Postman</span>
+                    </div>
+
+                    <div class="skill-item">
+                        <img src="https://avatars.githubusercontent.com/u/19369327?s=200&v=4">
+                        <span>REST Assured</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-2" style="margin-top:0">
+            <div class="skills-group" style="margin-bottom:0">
+                <h3>Build &amp; Reporting</h3>
+                <div class="skill-icons">
+                    <div class="skill-pill">Maven</div>
+                    <div class="skill-pill">Allure Reports</div>
+                </div>
+            </div>
+            <div class="skills-group" style="margin-bottom:0">
+                <h3>Platforms & Tools</h3>
+                <div class="skill-icons">
+
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg">
+                        <span>Android</span>
+                    </div>
+
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg">
+                        <span>iOS</span>
+                    </div>
+
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
+                        <span>Git</span>
+                    </div>
+
+                    <div class="skill-item">
+                        <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg">
+                        <span>Android Studio</span>
+                    </div>
+
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg">
+                        <span>VS Code</span>
+                    </div>
+
+                    <div class="skill-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg">
+                        <span>IntelliJ IDEA</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education">
+        <div class="section-header">
+            <h2>Education</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="grid-3">
+            <div class="edu-card" style="border-color:var(--green)">
+                <div class="edu-year">B.Tech (CSE)</div>
+                <div class="edu-institution">Manav Rachna International Institute of Research and Studies</div>
+                <div class="edu-detail">Bachelor of Technology<br>Computer Science &amp; Engineering</div>
+                <div class="edu-score">Percentage: 70%</div>
+            </div>
+            <div class="edu-card">
+                <div class="edu-year">Senior Secondary</div>
+                <div class="edu-institution">NRI Junior College</div>
+                <div class="edu-detail">12th Grade – Science Stream</div>
+                <div class="edu-score">Percentage: 94%</div>
+            </div>
+            <div class="edu-card">
+                <div class="edu-year">Secondary School</div>
+                <div class="edu-institution">Vijaya High School</div>
+                <div class="edu-detail">10th Grade – SSC Board</div>
+                <div class="edu-score">Percentage: 97%</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTERNSHIPS -->
+    <section id="internships">
+        <div class="section-header">
+            <h2>Internships</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="card" style="max-width:680px; margin:0 auto;">
+            <div class="intern-date">EzyCharge</div>
+            <div class="intern-role">Backend Development Intern</div>
+            <ul>
+                <li>Developed RESTful APIs using Node.js and Express.js.</li>
+                <li>Worked on complaint management, file uploads, and backend optimization.</li>
+            </ul>
+            <div style="margin-top:14px; display:flex; flex-wrap:wrap; gap:6px;">
+                <span class="tag">Node.js</span><span class="tag">Express.js</span>
+                <span class="tag">REST API</span><span class="tag">JavaScript</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="section-header">
+            <h2>Contact</h2>
+            <div class="underline"></div>
+        </div>
+        <div style="text-align:center;color:var(--muted);font-size:14px;margin-bottom:8px">
+            Let's connect — always open to new opportunities and collaborations.
+        </div>
+        <div class="contact-links">
+            <a href="mailto:bhargavpenumakabhargavpenumaka@gmail.com" class="contact-btn">📧 Email</a>
+            <a href="https://linkedin.com" class="contact-btn" target="_blank">💼 LinkedIn</a>
+            <a href="https://github.com" class="contact-btn" target="_blank">🐙 GitHub</a>
+            <a href="tel:+919949435979" class="contact-btn">📞 +91-9949435979</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Bhargav Penumaka &nbsp;|&nbsp; Built with 💚 &amp; terminal vibes</p>
+    </footer>
+    <script src="script.js">    </script>
+</body>
+
+</html>
